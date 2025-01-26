@@ -1,0 +1,16 @@
+.form {
+  background-color: var(--background-primary);
+  grid-column: 8/-1;
+  grid-row: 2/-1;
+  height: calc(100vh - 272px);
+  padding: 48px 32px;
+  box-shadow: 0 0 10px 0 var(--shadow-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .form__elements {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

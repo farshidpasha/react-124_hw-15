@@ -1,9 +1,14 @@
 @import url('../../../../index.css');
 
+.headline {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
 .headline__main-title {
   font-size: clamp(1.2rem, 3.5vw, 3.2rem);
   font-weight: 900;
   color: var(--title-light-primary);
+  padding-bottom: 16px;
 }
 
 .headline__secondary-title {

@@ -1,0 +1,19 @@
+.button {
+  /* reset button default style */
+  border: none;
+
+  /* button custom style */
+  border-radius: 4px;
+  background-color: var(--button-bg-color);
+  box-shadow: 0 0 4px 0px var(--shadow-primary);
+  width: 100%;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+  padding: 16px 0;
+}
+
+.button:active {
+  box-shadow: 0 0 0 0 transparent;
+  background-color: var(--button-bg-color-active);
+}

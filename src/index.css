@@ -1,12 +1,22 @@
 /* Start variables declare */
 :root {
+  /* declare text-color variables */
   --title-dark-primary: #000000;
   --title-dark-secondary: #2b2b2b;
   --title-light-primary: #ffffff;
   --title-light-secondary: #eeeeee;
   --text-primary: #3b3b3b;
+  --text-secondary: #fefefe;
+  /* declare background-color variables */
   --background-primary: #ffffff;
-  --background-secondary: #003366;
+  --background-secondary: #1f52df;
+  /* declare shadow color */
+  --shadow-primary: rgba(0, 0, 0, 0.5);
+  /* declare borders color */
+  --border-dark-primary: #3b3b3b;
+  /* declare button color */
+  --button-bg-color: #4eb829;
+  --button-bg-color-active: #439e23;
 }
 /* End variables declare */
 
@@ -52,6 +62,7 @@
 
 html {
   font-size: 62.5%;
+  direction: rtl;
 }
 
 h1,

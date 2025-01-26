@@ -1,5 +1,13 @@
 .hero {
   height: 100vh;
-  padding: 32px 0;
+  padding: 64px 0;
   background-color: var(--background-secondary);
+}
+
+.hero__container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, max-content);
+  row-gap: 32px;
+  column-gap: 32px;
 }
