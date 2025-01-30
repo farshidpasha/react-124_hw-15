@@ -1,0 +1,19 @@
+.offersAndBenefits {
+  grid-row: 3/-1;
+  grid-column: 1/8;
+}
+.offersAndBenefits__list {
+  margin-inline-start: 2.3rem;
+  list-style-type: disc;
+}
+
+.offersAndBenefits__items {
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: large;
+  transition: all 0.3s;
+}
+
+.offersAndBenefits__items:hover {
+  transform: rotateX('360deg'); /* ناقص */
+}
