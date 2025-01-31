@@ -1,3 +1,44 @@
+.comments {
+  padding-block: 32px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
 .comments::-webkit-scrollbar {
   display: none;
+}
+
+.mySwiper {
+  height: 100%;
+}
+
+.slide-container {
+  background-color: white;
+  position: relative;
+  width: 33%;
+  height: calc(100% - 64px);
+  border: 2px solid black;
+  padding-block: 64px;
+  padding-inline: 16px;
+}
+
+.slide-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* تعداد خطوط مجاز */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 4.5em; /* تنظیم ارتفاع متناسب با تعداد خطوط */
+  line-height: 1.5em; /* تعیین فاصله بین خطوط */
+}
+
+.slide-image {
+  border: 2px solid black;
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
